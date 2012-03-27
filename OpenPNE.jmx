@@ -3608,7 +3608,7 @@
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Get _csrf_token" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">_csrf_token</stringProp>
-                  <stringProp name="RegexExtractor.regex">&lt;input type=&quot;hidden&quot; name=&quot;diary\[_csrf_token\]&quot; value=&quot;(.+)&quot; id=&quot;diary__csrf_token&quot; &gt;</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;input type=&quot;hidden&quot; name=&quot;diary\[_csrf_token\]&quot; value=&quot;(.+)&quot; id=&quot;diary__csrf_token&quot; /&gt;</stringProp>
                   <stringProp name="RegexExtractor.template">$1$</stringProp>
                   <stringProp name="RegexExtractor.default"></stringProp>
                   <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -3709,7 +3709,7 @@
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Get _csrf_token" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">_csrf_token</stringProp>
-                  <stringProp name="RegexExtractor.regex">&lt;input type=&quot;hidden&quot; name=&quot;community\[_csrf_token\]&quot; value=&quot;(.+?)&quot; id=&quot;community__csrf_token&quot; &gt;</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;input type=&quot;hidden&quot; name=&quot;community\[_csrf_token\]&quot; value=&quot;(.+?)&quot; id=&quot;community__csrf_token&quot; /&gt;</stringProp>
                   <stringProp name="RegexExtractor.template">$1$</stringProp>
                   <stringProp name="RegexExtractor.default"></stringProp>
                   <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -3824,7 +3824,7 @@
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Get _csrf_token" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">_csrf_token</stringProp>
-                  <stringProp name="RegexExtractor.regex">&lt;input type=&quot;hidden&quot; name=&quot;community_topic\[_csrf_token\]&quot; value=&quot;(.+)&quot; id=&quot;community_topic__csrf_token&quot; &gt;</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;input type=&quot;hidden&quot; name=&quot;community_topic\[_csrf_token\]&quot; value=&quot;(.+)&quot; id=&quot;community_topic__csrf_token&quot; /&gt;</stringProp>
                   <stringProp name="RegexExtractor.template">$1$</stringProp>
                   <stringProp name="RegexExtractor.default"></stringProp>
                   <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -3911,7 +3911,7 @@
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Get _csrf_token" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">_csrf_token</stringProp>
-                  <stringProp name="RegexExtractor.regex">&lt;input type=&quot;hidden&quot; name=&quot;community_event\[_csrf_token\]&quot; value=&quot;(.+)&quot; id=&quot;community_event__csrf_token&quot; &gt;</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;input type=&quot;hidden&quot; name=&quot;community_event\[_csrf_token\]&quot; value=&quot;(.+)&quot; id=&quot;community_event__csrf_token&quot; /&gt;</stringProp>
                   <stringProp name="RegexExtractor.template">$1$</stringProp>
                   <stringProp name="RegexExtractor.default"></stringProp>
                   <stringProp name="RegexExtractor.match_number"></stringProp>
