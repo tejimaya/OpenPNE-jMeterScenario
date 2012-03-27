@@ -408,7 +408,7 @@
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get member_id" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">member_id</stringProp>
-                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/member\/(\d+)</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}member\/(\d+)</stringProp>
                   <stringProp name="RegexExtractor.template">$1$</stringProp>
                   <stringProp name="RegexExtractor.default">1</stringProp>
                   <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -541,7 +541,7 @@
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get member_id" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">member_id</stringProp>
-                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/member\/(\d+)</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}member\/(\d+)</stringProp>
                   <stringProp name="RegexExtractor.template">$1$</stringProp>
                   <stringProp name="RegexExtractor.default">1</stringProp>
                   <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -1134,7 +1134,7 @@
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get community_id" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                     <stringProp name="RegexExtractor.refname">community_id</stringProp>
-                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/community\/(\d+)</stringProp>
+                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}community\/(\d+)</stringProp>
                     <stringProp name="RegexExtractor.template">$1$</stringProp>
                     <stringProp name="RegexExtractor.default">1</stringProp>
                     <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -1727,7 +1727,7 @@
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get community_id" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">community_id</stringProp>
-                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/community\/(\d+)</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}community\/(\d+)</stringProp>
                   <stringProp name="RegexExtractor.template">$1$</stringProp>
                   <stringProp name="RegexExtractor.default">1</stringProp>
                   <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -1893,7 +1893,7 @@
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get friend_member_id" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">friend_member_id</stringProp>
-                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/member\/(\d+)</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}member\/(\d+)</stringProp>
                   <stringProp name="RegexExtractor.template">$1$</stringProp>
                   <stringProp name="RegexExtractor.default">1</stringProp>
                   <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -2004,7 +2004,7 @@
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get message_id" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                     <stringProp name="RegexExtractor.refname">message_id</stringProp>
-                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/message\/read\/(\d+)</stringProp>
+                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}message\/read\/(\d+)</stringProp>
                     <stringProp name="RegexExtractor.template">$1$</stringProp>
                     <stringProp name="RegexExtractor.default">1</stringProp>
                     <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -2070,7 +2070,7 @@
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get message_id" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                     <stringProp name="RegexExtractor.refname">message_id</stringProp>
-                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/message\/check\/(\d+)</stringProp>
+                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}message\/check\/(\d+)</stringProp>
                     <stringProp name="RegexExtractor.template">$1$</stringProp>
                     <stringProp name="RegexExtractor.default">1</stringProp>
                     <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -2247,7 +2247,7 @@
                 <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get diary_id" enabled="true">
                   <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                   <stringProp name="RegexExtractor.refname">diary_id</stringProp>
-                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/diary\/(\d+)</stringProp>
+                  <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}diary\/(\d+)</stringProp>
                   <stringProp name="RegexExtractor.template">$1$</stringProp>
                   <stringProp name="RegexExtractor.default">1</stringProp>
                   <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -2652,7 +2652,7 @@
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get topic_id" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                     <stringProp name="RegexExtractor.refname">topic_id</stringProp>
-                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/communityTopic\/(\d+)</stringProp>
+                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}communityTopic\/(\d+)</stringProp>
                     <stringProp name="RegexExtractor.template">$1$</stringProp>
                     <stringProp name="RegexExtractor.default">1</stringProp>
                     <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -2688,7 +2688,7 @@
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get community_id" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                     <stringProp name="RegexExtractor.refname">community_id</stringProp>
-                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/community\/(\d+)</stringProp>
+                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}community\/(\d+)</stringProp>
                     <stringProp name="RegexExtractor.template">$1$</stringProp>
                     <stringProp name="RegexExtractor.default">1</stringProp>
                     <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -2784,7 +2784,7 @@
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get event_id" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                     <stringProp name="RegexExtractor.refname">event_id</stringProp>
-                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/communityEvent\/(\d+)</stringProp>
+                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}communityEvent\/(\d+)</stringProp>
                     <stringProp name="RegexExtractor.template">$1$</stringProp>
                     <stringProp name="RegexExtractor.default">1</stringProp>
                     <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -2940,7 +2940,7 @@
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get community_id" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                     <stringProp name="RegexExtractor.refname">community_id</stringProp>
-                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/community\/(\d+)</stringProp>
+                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}community\/(\d+)</stringProp>
                     <stringProp name="RegexExtractor.template">$1$</stringProp>
                     <stringProp name="RegexExtractor.default">1</stringProp>
                     <stringProp name="RegexExtractor.match_number"></stringProp>
@@ -3085,7 +3085,7 @@
                   <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="get community_id" enabled="true">
                     <stringProp name="RegexExtractor.useHeaders">false</stringProp>
                     <stringProp name="RegexExtractor.refname">community_id</stringProp>
-                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}index.php\/community\/(\d+)</stringProp>
+                    <stringProp name="RegexExtractor.regex">&lt;a href=&quot;${OPENPNE_SNS_PATH}community\/(\d+)</stringProp>
                     <stringProp name="RegexExtractor.template">$1$</stringProp>
                     <stringProp name="RegexExtractor.default">1</stringProp>
                     <stringProp name="RegexExtractor.match_number"></stringProp>
