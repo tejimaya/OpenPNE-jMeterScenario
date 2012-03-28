@@ -1286,33 +1286,6 @@
                 </GaussianRandomTimer>
                 <hashTree/>
               </hashTree>
-              <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="/community/detail/id/${community_id}" enabled="true">
-                <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="ユーザー定義変数" enabled="true">
-                  <collectionProp name="Arguments.arguments"/>
-                </elementProp>
-                <stringProp name="HTTPSampler.domain">${OPENPNE_SNS_HOST}</stringProp>
-                <stringProp name="HTTPSampler.port">${PORT}</stringProp>
-                <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-                <stringProp name="HTTPSampler.response_timeout"></stringProp>
-                <stringProp name="HTTPSampler.protocol">${PROTOCOL}</stringProp>
-                <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-                <stringProp name="HTTPSampler.path">${OPENPNE_SNS_PATH}community/detail/id/${community_id}</stringProp>
-                <stringProp name="HTTPSampler.method">GET</stringProp>
-                <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-                <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-                <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-                <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-                <stringProp name="HTTPSampler.implementation">Java</stringProp>
-                <boolProp name="HTTPSampler.monitor">false</boolProp>
-                <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-              </HTTPSamplerProxy>
-              <hashTree>
-                <GaussianRandomTimer guiclass="GaussianRandomTimerGui" testclass="GaussianRandomTimer" testname="ガウス乱数タイマ" enabled="true">
-                  <stringProp name="ConstantTimer.delay">${ACTION_DELAY}</stringProp>
-                  <stringProp name="RandomTimer.range">${ACTION_SD}</stringProp>
-                </GaussianRandomTimer>
-                <hashTree/>
-              </hashTree>
             </hashTree>
             <ThroughputController guiclass="ThroughputControllerGui" testclass="ThroughputController" testname="Activity" enabled="true">
               <intProp name="ThroughputController.style">1</intProp>
