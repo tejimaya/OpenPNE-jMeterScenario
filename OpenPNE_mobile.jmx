@@ -724,7 +724,7 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="member[name]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                      <stringProp name="Argument.value">メンバー1</stringProp>
+                      <stringProp name="Argument.value">dummy1</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       <stringProp name="Argument.name">member[name]</stringProp>
@@ -812,7 +812,7 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="member[name]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                      <stringProp name="Argument.value">メンバー</stringProp>
+                      <stringProp name="Argument.value">dummy</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       <stringProp name="Argument.name">member[name]</stringProp>
@@ -877,7 +877,7 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="member[name]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">メンバー3</stringProp>
+                      <stringProp name="Argument.value">dummy3</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       <stringProp name="Argument.name">member[name]</stringProp>

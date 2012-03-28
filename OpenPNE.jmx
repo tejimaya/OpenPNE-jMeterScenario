@@ -717,7 +717,7 @@
                     <elementProp name="member[name]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">true</boolProp>
                       <stringProp name="Argument.name">member[name]</stringProp>
-                      <stringProp name="Argument.value">メンバー１</stringProp>
+                      <stringProp name="Argument.value">dummy1</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                     </elementProp>
@@ -886,7 +886,7 @@
                     <elementProp name="member[name]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">true</boolProp>
                       <stringProp name="Argument.name">member[name]</stringProp>
-                      <stringProp name="Argument.value">メンバー１</stringProp>
+                      <stringProp name="Argument.value">dummy1</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                     </elementProp>
