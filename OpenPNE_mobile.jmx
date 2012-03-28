@@ -768,7 +768,7 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="member[profile_op_preset_self_introduction]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                      <stringProp name="Argument.value">メンバー2</stringProp>
+                      <stringProp name="Argument.value">dummy</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       <stringProp name="Argument.name">member[profile_op_preset_self_introduction]</stringProp>
@@ -812,28 +812,28 @@
                   <collectionProp name="Arguments.arguments">
                     <elementProp name="member[name]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                      <stringProp name="Argument.value">dummy</stringProp>
+                      <stringProp name="Argument.value">OpenPNE君</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       <stringProp name="Argument.name">member[name]</stringProp>
                     </elementProp>
                     <elementProp name="member[profile_op_preset_sex]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">Female</stringProp>
+                      <stringProp name="Argument.value">Man</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       <stringProp name="Argument.name">member[profile_op_preset_sex]</stringProp>
                     </elementProp>
                     <elementProp name="member[profile_op_preset_region]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                      <stringProp name="Argument.value">Hokkaido</stringProp>
+                      <stringProp name="Argument.value">Tokyo</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       <stringProp name="Argument.name">member[profile_op_preset_region]</stringProp>
                     </elementProp>
                     <elementProp name="member[profile_op_preset_self_introduction]" elementType="HTTPArgument">
                       <boolProp name="HTTPArgument.always_encode">true</boolProp>
-                      <stringProp name="Argument.value">よろしく</stringProp>
+                      <stringProp name="Argument.value">よろしくお願いします。</stringProp>
                       <stringProp name="Argument.metadata">=</stringProp>
                       <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       <stringProp name="Argument.name">member[profile_op_preset_self_introduction]</stringProp>
@@ -1023,14 +1023,14 @@
                       <elementProp name="community[name]" elementType="HTTPArgument">
                         <boolProp name="HTTPArgument.always_encode">false</boolProp>
                         <stringProp name="Argument.name">community[name]</stringProp>
-                        <stringProp name="Argument.value">12</stringProp>
+                        <stringProp name="Argument.value">dummy</stringProp>
                         <stringProp name="Argument.metadata">=</stringProp>
                         <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       </elementProp>
                       <elementProp name="community[community_category_id]" elementType="HTTPArgument">
                         <boolProp name="HTTPArgument.always_encode">false</boolProp>
                         <stringProp name="Argument.name">community[community_category_id]</stringProp>
-                        <stringProp name="Argument.value">1</stringProp>
+                        <stringProp name="Argument.value">2</stringProp>
                         <stringProp name="Argument.metadata">=</stringProp>
                         <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       </elementProp>
@@ -1118,7 +1118,7 @@
                       <elementProp name="community[name]" elementType="HTTPArgument">
                         <boolProp name="HTTPArgument.always_encode">true</boolProp>
                         <stringProp name="Argument.name">community[name]</stringProp>
-                        <stringProp name="Argument.value">12</stringProp>
+                        <stringProp name="Argument.value">dummy</stringProp>
                         <stringProp name="Argument.metadata">=</stringProp>
                         <boolProp name="HTTPArgument.use_equals">true</boolProp>
                       </elementProp>
