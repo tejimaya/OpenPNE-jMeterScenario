@@ -15,7 +15,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="OPENPNE_SNS_HOST" elementType="Argument">
             <stringProp name="Argument.name">OPENPNE_SNS_HOST</stringProp>
-            <stringProp name="Argument.value">localost</stringProp>
+            <stringProp name="Argument.value">localhost</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="OPENPNE_SNS_PATH" elementType="Argument">
