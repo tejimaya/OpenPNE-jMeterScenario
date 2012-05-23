@@ -15,7 +15,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="OPENPNE_SNS_HOST" elementType="Argument">
             <stringProp name="Argument.name">OPENPNE_SNS_HOST</stringProp>
-            <stringProp name="Argument.value">localhost</stringProp>
+            <stringProp name="Argument.value">${__P(openpne_sns_host)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="OPENPNE_SNS_PATH" elementType="Argument">
@@ -30,7 +30,7 @@
           </elementProp>
           <elementProp name="PORT" elementType="Argument">
             <stringProp name="Argument.name">PORT</stringProp>
-            <stringProp name="Argument.value">80</stringProp>
+            <stringProp name="Argument.value">${__P(openpne_port)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="ACTION_SD" elementType="Argument">
